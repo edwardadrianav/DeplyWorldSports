@@ -8,7 +8,7 @@ import { login } from "../controllers/loginControllers.js";
 export const  router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send('Bienvenido a World Sports');
+    res.send('Deploy World Sports en Heroku de nuestro Backend');
 })
 
 //Rutas de usuarios
